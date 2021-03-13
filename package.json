@@ -1,0 +1,26 @@
+{
+    "name": "crns-lang",
+    "displayName": "CRNS Language",
+    "description": "Language support for the Chase Reds Notation Standard",
+    "publisher": "acikek",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "crns",
+            "aliases": ["CRNS", "crns", "Chase Reds Notation Standard"],
+            "extensions": [".chase"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "crns",
+            "scopeName": "source.chase",
+            "path": "./syntaxes/crns.tmLanguage.json"
+        }]
+    }
+}
