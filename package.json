@@ -4,6 +4,10 @@
     "description": "Language support for the Chase Reds Notation Standard",
     "publisher": "acikek",
     "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/acikek/crns-lang"
+    },
     "engines": {
         "vscode": "^1.54.0"
     },
