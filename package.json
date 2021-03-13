@@ -3,7 +3,7 @@
     "displayName": "CRNS Language",
     "description": "Language support for the Chase Reds Notation Standard",
     "publisher": "acikek",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/acikek/crns-lang"
